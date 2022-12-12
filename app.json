@@ -1,0 +1,25 @@
+{
+  "name": "Valis",
+  "displayName": "Valis",
+  "expo": {
+    "name": "Valis",
+    "slug": "Valis",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash-screen-full-black.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "version": "1.0.5",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.btazbankmobile.valis",
+      "permissions": [ "CAMERA" ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.btzbankmobile.valis"
+    }
+  }
+}
